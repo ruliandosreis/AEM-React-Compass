@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/reactcompass" mode="merge"/>
+    <filter root="/content/reactcompass" mode="merge"/>
+    <filter root="/content/dam/reactcompass/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/reactcompass" mode="merge"/>
+</workspaceFilter>

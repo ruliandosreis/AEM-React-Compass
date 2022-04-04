@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/reactcompass/clientlibs"/>
+    <filter root="/apps/reactcompass/components"/>
+    <filter root="/apps/reactcompass/i18n"/>
+</workspaceFilter>
