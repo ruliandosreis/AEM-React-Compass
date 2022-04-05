@@ -34,9 +34,9 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
@@ -303,6 +303,16 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_46998610263400
+                    jcr:lastModified="{Date}2022-04-04T22:30:21.623-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="ReactPagesPolicy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="group:AEM React Compass - Content"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_46998610263400>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
@@ -353,8 +363,7 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[reactcompass.react]"
                     isRoot="{Boolean}true"
-                    structureDepth="3"
-                />
+                    structureDepth="3"/>
             </spa>
         </components>
     </reactcompass>
@@ -364,13 +373,15 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <spa-default
                         jcr:description="Includes only SPA-Enabled components."
+                        jcr:lastModified="{Date}2022-04-04T22:27:26.054-03:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SPA Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/reactcompass/components/text]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/reactcompass/components/container,/apps/reactcompass/components/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </spa-default>
-                    </responsivegrid>
+                </responsivegrid>
             </components>
         </foundation>
     </wcm>

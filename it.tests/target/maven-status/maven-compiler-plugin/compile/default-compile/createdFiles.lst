@@ -1,0 +1,4 @@
+com\reactcompass\it\tests\CreatePageIT.class
+com\reactcompass\it\tests\PublishPageValidationIT.class
+com\reactcompass\it\tests\HtmlUnitClient.class
+com\reactcompass\it\tests\GetPageIT.class

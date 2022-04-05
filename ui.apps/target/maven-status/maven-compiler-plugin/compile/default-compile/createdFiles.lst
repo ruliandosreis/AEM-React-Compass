@@ -1,0 +1,7 @@
+org\apache\sling\scripting\sightly\apps\reactcompass\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\reactcompass\clientlibs\clientlib__002d__react\resources\index__002e__html.class
+org\apache\sling\scripting\sightly\apps\reactcompass\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\reactcompass\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\reactcompass\components\xfpage\body__002e__html.class
+org\apache\sling\scripting\sightly\apps\reactcompass\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\reactcompass\components\xfpage\customheaderlibs__002e__html.class

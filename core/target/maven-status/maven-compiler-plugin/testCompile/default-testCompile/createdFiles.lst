@@ -1,0 +1,7 @@
+com\reactcompass\core\testcontext\AppAemContext$1.class
+com\reactcompass\core\schedulers\SimpleScheduledTaskTest.class
+com\reactcompass\core\listeners\SimpleResourceListenerTest.class
+com\reactcompass\core\testcontext\AppAemContext.class
+com\reactcompass\core\filters\LoggingFilterTest.class
+com\reactcompass\core\models\HelloWorldModelTest.class
+com\reactcompass\core\servlets\SimpleServletTest.class
