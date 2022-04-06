@@ -15,7 +15,7 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Global styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html,
 body {
   border: 0;
@@ -32,4 +32,9 @@ body {
 
 .background__gradient {
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+}
+
+@font-face {
+  font-family: 'Mark Pro';
+  src: url('./assets/Fonts/MarkPro.ttf');
 }
