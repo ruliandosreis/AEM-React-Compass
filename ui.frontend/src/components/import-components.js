@@ -19,6 +19,7 @@ import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 import './LoginFormComponent'
+import './LoginSubmitButton'
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -48,6 +49,7 @@ import {
     ListV2,ListV2IsEmptyFn
 } from '@adobe/aem-core-components-react-base';
 import LoginFormComponent from "./LoginFormComponent";
+import LoginSubmitButton from "./LoginSubmitButton";
 
 //lazyload / code splitting example of an internal component
 const LazyTextComponent = withAsyncImport(() => import(`./Text/Text`));
@@ -96,3 +98,5 @@ const TextEditConfig = {
 MapTo('reactcompass/components/text')(LazyTextComponent, TextEditConfig);
 
 MapTo('reactcompass/components/loginformcomponent')(LoginFormComponent);
+
+MapTo('reactcompass/components/loginsubmitbutton')(LoginSubmitButton, TextEditConfig);

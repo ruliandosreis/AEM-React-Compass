@@ -3,7 +3,7 @@
 <properties>
 <comment>AEM React Compass - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-04-05T15:41:58.481Z</entry>
+<entry key="created">2022-04-06T12:31:08.623Z</entry>
 <entry key="groupId">com.reactcompass</entry>
 <entry key="name">reactcompass.all</entry>
 <entry key="description">All content package for AEM React Compass</entry>

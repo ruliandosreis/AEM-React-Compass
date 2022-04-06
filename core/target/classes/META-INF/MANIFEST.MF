@@ -42,5 +42,6 @@ Service-Component: OSGI-INF/com.reactcompass.core.filters.LoggingFilte
  .xml,OSGI-INF/com.reactcompass.core.schedulers.SimpleScheduledTask.xm
  l,OSGI-INF/com.reactcompass.core.servlets.SimpleServlet.xml
 Sling-Model-Classes: com.reactcompass.core.models.HelloWorldModel,com.
- reactcompass.core.models.impl.LoginformcomponentImpl
+ reactcompass.core.models.impl.LoginformcomponentImpl,com.reactcompass
+ .core.models.impl.LoginsubmitbuttonImpl
 

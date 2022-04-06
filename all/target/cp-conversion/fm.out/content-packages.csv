@@ -1,4 +1,4 @@
-# File created on Tue Apr 05 12:41:59 BRT 2022 by the Apache Sling Content Package to Sling Feature converter
+# File created on Wed Apr 06 09:31:10 BRT 2022 by the Apache Sling Content Package to Sling Feature converter
 # content-package path, content-package ID, content-package type, content-package parent ID, path in parent content-package, absolute path
 C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\all\target\reactcompass.all-1.0.0-SNAPSHOT.zip,com.reactcompass:reactcompass.all:1.0.0-SNAPSHOT,CONTAINER,,,
 C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\all\target\reactcompass.all-1.0.0-SNAPSHOT.zip,com.reactcompass:reactcompass.ui.config:1.0.0-SNAPSHOT,CONTAINER,com.reactcompass:reactcompass.all:1.0.0-SNAPSHOT,/jcr_root/apps/reactcompass-packages/application/install/reactcompass.ui.config-1.0.0-SNAPSHOT.zip,C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\all\target\reactcompass.all-1.0.0-SNAPSHOT.zip!/jcr_root/apps/reactcompass-packages/application/install/reactcompass.ui.config-1.0.0-SNAPSHOT.zip

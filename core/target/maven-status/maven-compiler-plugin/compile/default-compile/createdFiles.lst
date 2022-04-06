@@ -1,6 +1,7 @@
 com\reactcompass\core\listeners\package-info.class
 com\reactcompass\core\models\HelloWorldModel.class
 com\reactcompass\core\models\Loginformcomponent.class
+com\reactcompass\core\models\Loginsubmitbutton.class
 com\reactcompass\core\filters\package-info.class
 com\reactcompass\core\schedulers\SimpleScheduledTask$Config.class
 com\reactcompass\core\listeners\SimpleResourceListener.class
@@ -10,4 +11,5 @@ com\reactcompass\core\schedulers\SimpleScheduledTask.class
 com\reactcompass\core\servlets\SimpleServlet.class
 com\reactcompass\core\models\package-info.class
 com\reactcompass\core\schedulers\package-info.class
+com\reactcompass\core\models\impl\LoginsubmitbuttonImpl.class
 com\reactcompass\core\servlets\package-info.class
