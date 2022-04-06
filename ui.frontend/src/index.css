@@ -30,14 +30,6 @@ body {
   background-color: #ffffff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-.nav-container,
-.rw-box {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-  color: #000000;
+.background__gradient {
+  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 }
