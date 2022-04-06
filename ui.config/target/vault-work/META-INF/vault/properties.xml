@@ -4,7 +4,7 @@
 <comment>AEM React Compass - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-04-05T01:23:27.405Z</entry>
+<entry key="created">2022-04-05T15:41:57.171Z</entry>
 <entry key="groupId">com.reactcompass</entry>
 <entry key="name">reactcompass.ui.config</entry>
 <entry key="description">UI config package for AEM React Compass</entry>
