@@ -1,0 +1,71 @@
+{
+    "project-settings": {
+      "code-owner": "Keepalive",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "reactcompass",
+      "model-interface-pkg": "com.reactcompass.core.models",
+      "model-impl-pkg": "com.reactcompass.core.models.impl"
+    },
+  
+    "name": "customtext",
+    "title": "CustomText",
+    "group": "React Compass Custom Components",
+    "type": "components",
+  
+    "options": {
+      "js": false,
+      "jstxt": false,
+      "css": false,
+      "csstxt": false,
+      "html": false,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": true,
+      "model-adaptables": ["request"],
+      "generic-javadoc": false,
+  
+      "properties": [
+        {
+            "field": "text",
+            "label": "Text",
+            "type": "textfield",
+            "json-expose": true,
+            "json-property": "text"
+          },        {
+            "field": "fontSize",
+            "label": "Font Size",
+            "type": "numberfield",
+            "json-expose": true,
+            "json-property": "fontSize"
+          },        {
+            "field": "color",
+            "label": "Font Color",
+            "type": "colorfield",
+            "json-expose": true,
+            "json-property": "color"
+          },        {
+            "field": "fontWeight",
+            "label": "Font Weight",
+            "type": "numberfield",
+            "json-expose": true,
+            "json-property": "weight"
+          },        {
+            "field": "margin",
+            "label": "Margin of Text Component",
+            "type": "numberfield",
+            "json-expose": true,
+            "json-property": "margin"
+          },        {
+            "field": "fontFamily",
+            "label": "Font Family",
+            "type": "textfield",
+            "json-expose": true,
+            "json-property": "family"
+          }
+      ]
+    }
+  }
