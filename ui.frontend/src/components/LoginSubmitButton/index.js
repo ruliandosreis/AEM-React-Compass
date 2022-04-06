@@ -7,7 +7,7 @@ import {
 
 const LoginSubmitButton = ({text, fontSize}) => {
   return (
-    <LoginButton>
+    <LoginButton type='submit' form='login-form'>
       <LoginButtonText
       fontSize={`${fontSize}px`}
       >{text}
