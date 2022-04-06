@@ -33,3 +33,10 @@ body {
 .background__gradient {
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
 }
+
+.sidepanel__img {
+  background-image: url('./assets/images/login-page-rightside.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
