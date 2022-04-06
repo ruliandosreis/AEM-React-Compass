@@ -21,6 +21,7 @@ import './ExperienceFragment/ExperienceFragment';
 
 import './WhiteLogo';
 import './BlackLogo';
+import './CustomText';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -51,6 +52,7 @@ import {
 } from '@adobe/aem-core-components-react-base';
 import { WhiteLogo } from "./WhiteLogo";
 import { BlackLogo } from "./BlackLogo";
+import { CustomText } from "./CustomText";
 
 //lazyload / code splitting example of an internal component
 const LazyTextComponent = withAsyncImport(() => import(`./Text/Text`));
@@ -100,3 +102,4 @@ MapTo('reactcompass/components/text')(LazyTextComponent, TextEditConfig);
 
 MapTo('reactcompass/components/whitelogo')(WhiteLogo);
 MapTo('reactcompass/components/blacklogo')(BlackLogo);
+MapTo('reactcompass/components/customtext')(CustomText);
