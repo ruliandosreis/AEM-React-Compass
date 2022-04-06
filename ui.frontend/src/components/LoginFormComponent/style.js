@@ -21,63 +21,55 @@ export const InputLabel = styled.div`
 export const LoginUserInput = styled.input`
   width:100%;
   margin: 15px auto;
-  height:60px;
+  height: 60px;
   background: transparent url(${UserIcon}) no-repeat;
-  background-position: 90% center;
+  background-position: 93% center;
   background-size: 20px;
   border-radius: 50px;
   box-sizing: border-box;
   border: 1px #FFFFFF solid;
-  padding:20px;
+  padding-left: 20px;
   font-size: 16px;
   line-height: 20px;
   color: white;
-  font-family: Mark Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  outline:none;
+  font-family: 'Mark Pro';
+  outline: none;
   &::placeholder{
-    color:white;
+    color: white;
   }
   &:focus{
     border: 1px solid #E9B425;
   }
   @media screen and (max-width: 1024px){
-    width:100%;
+    width: 100%;
     margin: 15px 15px 15px 0;
   }
 `
 
 export const LoginPasswordInput = styled.input`
-  width:100%;
+  width: 100%;
   margin: 15px auto;
-  height:60px;
+  height: 60px;
   background: transparent url(${PasswordIcon}) no-repeat;
-  background-position: 90% center;
+  background-position: 93% center;
   background-size: 20px;
   border-radius: 50px;
   box-sizing: border-box;
   border: 1px #FFFFFF solid;
-  padding:20px;
+  padding-left:20px;
   font-size: 16px;
   line-height: 20px;
   color: white;
-  font-family: Mark Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  outline:none;
+  font-family: 'Mark Pro';
+  outline: none;
   &::placeholder{
-    color:white;
+    color: white;
   }
   &:focus{
     border: 1px solid #E9B425;
   }
   @media screen and (max-width: 1024px){
-    width:100%;
+    width: 100%;
     margin: 15px 15px 15px 0;
   }
 `
@@ -97,7 +89,7 @@ export const LoginErrorMessageContainer = styled.div`
 `
 
 export const ErrorMessage = styled.p`
-  font-family: Mark Pro;
+  font-family: 'Mark Pro';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
