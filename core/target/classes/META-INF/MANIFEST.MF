@@ -8,22 +8,26 @@ Bundle-Version: 1.0.0.SNAPSHOT
 Export-Package: com.reactcompass.core.filters;version="1.0";uses:="jav
  ax.servlet",com.reactcompass.core.listeners;version="1.0";uses:="org.
  apache.sling.api.resource.observation",com.reactcompass.core.models;v
- ersion="1.0";uses:="javax.annotation,org.apache.sling.api.resource,or
- g.apache.sling.models.annotations,org.apache.sling.models.annotations
- .injectorspecific",com.reactcompass.core.schedulers;version="1.0",com
- .reactcompass.core.servlets;version="1.0";uses:="javax.servlet,org.ap
- ache.sling.api,org.apache.sling.api.servlets"
-Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
- rsion="[1.29,2)",com.reactcompass.core.filters;version="[1.0,2)",com.
- reactcompass.core.listeners;version="[1.0,2)",com.reactcompass.core.s
- chedulers;version="[1.0,2)",com.reactcompass.core.servlets;version="[
- 1.0,2)",javax.servlet;version="[3.0,4)",org.apache.sling.api;version=
- "[2.3,3)",org.apache.sling.api.request;version="[2.5,3)",org.apache.s
- ling.api.resource;version="[2.13,3)",org.apache.sling.api.resource.ob
- servation;version="[1.2,2)",org.apache.sling.api.servlets;version="[2
- .3,3)",org.apache.sling.models.annotations;version="[1.5,2)",org.apac
- he.sling.models.annotations.injectorspecific;version="[1.1,2)",org.sl
- f4j;version="[1.7,2)"
+ ersion="1.0";uses:="com.adobe.cq.export.json,com.fasterxml.jackson.an
+ notation,javax.annotation,org.apache.sling.api.resource,org.apache.sl
+ ing.models.annotations,org.apache.sling.models.annotations.injectorsp
+ ecific",com.reactcompass.core.schedulers;version="1.0",com.reactcompa
+ ss.core.servlets;version="1.0";uses:="javax.servlet,org.apache.sling.
+ api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.cq.export.j
+ son;version="[2.0,3)",com.day.cq.wcm.api;version="[1.29,2)",com.faste
+ rxml.jackson.annotation;version="[2.13,3)",com.reactcompass.core.filt
+ ers;version="[1.0,2)",com.reactcompass.core.listeners;version="[1.0,2
+ )",com.reactcompass.core.models;version="[1.0,2)",com.reactcompass.co
+ re.schedulers;version="[1.0,2)",com.reactcompass.core.servlets;versio
+ n="[1.0,2)",javax.servlet;version="[3.0,4)",org.apache.sling.api;vers
+ ion="[2.3,3)",org.apache.sling.api.request;version="[2.5,3)",org.apac
+ he.sling.api.resource;version="[2.13,3)",org.apache.sling.api.resourc
+ e.observation;version="[1.2,2)",org.apache.sling.api.servlets;version
+ ="[2.3,3)",org.apache.sling.models.annotations;version="[1.5,2)",org.
+ apache.sling.models.annotations.injectorspecific;version="[1.1,2)",or
+ g.slf4j;version="[1.7,2)"
+Private-Package: com.reactcompass.core.models.impl
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
  ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
@@ -37,5 +41,7 @@ Service-Component: OSGI-INF/com.reactcompass.core.filters.LoggingFilte
  r.xml,OSGI-INF/com.reactcompass.core.listeners.SimpleResourceListener
  .xml,OSGI-INF/com.reactcompass.core.schedulers.SimpleScheduledTask.xm
  l,OSGI-INF/com.reactcompass.core.servlets.SimpleServlet.xml
-Sling-Model-Classes: com.reactcompass.core.models.HelloWorldModel
+Sling-Model-Classes: com.reactcompass.core.models.HelloWorldModel,com.
+ reactcompass.core.models.impl.LoginformcomponentImpl,com.reactcompass
+ .core.models.impl.LoginsubmitbuttonImpl
 
