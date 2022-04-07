@@ -46,6 +46,7 @@ import {
     SeparatorV1,SeparatorV1IsEmptyFn,
     ListV2,ListV2IsEmptyFn
 } from '@adobe/aem-core-components-react-base';
+import Climate from "./Climate";
 
 //lazyload / code splitting example of an internal component
 const LazyTextComponent = withAsyncImport(() => import(`./Text/Text`));
@@ -92,3 +93,4 @@ const TextEditConfig = {
 };
 
 MapTo('reactcompass/components/text')(LazyTextComponent, TextEditConfig);
+MapTo('reactcompass/components/climate')(Climate);
