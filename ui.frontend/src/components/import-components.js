@@ -53,6 +53,7 @@ import {
     SeparatorV1,SeparatorV1IsEmptyFn,
     ListV2,ListV2IsEmptyFn
 } from '@adobe/aem-core-components-react-base';
+import Climate from "./Climate";
 
 import LoginFormComponent from "./LoginFormComponent";
 import LoginSubmitButton from "./LoginSubmitButton";
@@ -107,12 +108,9 @@ const TextEditConfig = {
 };
 
 MapTo('reactcompass/components/text')(LazyTextComponent, TextEditConfig);
-
-
 MapTo('reactcompass/components/loginformcomponent')(LoginFormComponent);
 MapTo('reactcompass/components/loginsubmitbutton')(LoginSubmitButton, TextEditConfig);
-
 MapTo('reactcompass/components/whitelogo')(WhiteLogo);
 MapTo('reactcompass/components/blacklogo')(BlackLogo);
 MapTo('reactcompass/components/customtext')(CustomText);
-
+MapTo('reactcompass/components/climate')(Climate);

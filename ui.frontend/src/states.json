@@ -1,0 +1,116 @@
+{
+    "states": [
+        {
+            "state": "Acre",
+            "cod_state": "AC"
+        },
+        {
+            "state": "Alagoas",
+            "cod_state": "AL"
+        },
+        {
+            "state": "Amapá",
+            "cod_state": "AP"
+        },
+        {
+            "state": "Acre",
+            "cod_state": "AC"
+        },
+        {
+            "state": "Amazonas",
+            "cod_state": "AM"
+        },
+        {
+            "state": "Bahia",
+            "cod_state": "BA"
+        },
+        {
+            "state": "Ceará",
+            "cod_state": "CE"
+        },
+        {
+            "state": "Espírito Santo",
+            "cod_state": "ES"
+        }, 
+        {
+            "state": "Goiás",
+            "cod_state": "GO"
+        },
+        {
+            "state": "Maranhão",
+            "cod_state": "MA"
+        },
+        {
+            "state": "Mato Grosso",
+            "cod_state": "MT"
+        },
+        {
+            "state": "Mato Grosso do Sul",
+            "cod_state": "MS"
+        },
+        {
+            "state": "Minas Gerais",
+            "cod_state": "MG"
+        },
+        {
+            "state": "Pará",
+            "cod_state": "PA"
+        },
+        {
+            "state": "Paraíba",
+            "cod_state": "PB"
+        },
+        {
+            "state": "Paraná",
+            "cod_state": "PR"
+        },
+        {
+            "state": "Pernambuco",
+            "cod_state": "PE"
+        },
+        {
+            "state": "Piauí",
+            "cod_state": "PI"
+        },
+        {
+            "state": "Rio de Janeiro",
+            "cod_state": "RJ"
+        },
+        {
+            "state": "Rio Grande do Norte",
+            "cod_state": "RN"
+        },
+        {
+            "state": "Rio Grande do Sul",
+            "cod_state": "RS"
+        },
+        {
+            "state": "Rondônia",
+            "cod_state": "RO"
+        },
+        {
+            "state": "Roraima",
+            "cod_state": "RR"
+        },
+        {
+            "state": "Santa Catarina",
+            "cod_state": "SC"
+        },
+        {
+            "state": "São Paulo",
+            "cod_state": "SP"
+        },
+        {
+            "state": "Sergipe",
+            "cod_state": "SE"
+        },
+        {
+            "state": "Tocantins",
+            "cod_state": "TO"
+        }, 
+        {
+            "state": "Distrito Federal",
+            "cod_state": "DF"
+        }  
+    ]
+}
