@@ -5,6 +5,7 @@ import { getLocal } from "../../helpers/devsAPI";
 
 const Climate = (props) => {
 
+    const coordDefault = { lat: -28.2628, lng: -52.4067, region: 'Passo Fundo - RS' };
     let { lat, lng } = props;
     const [region, setRegion] = useState(null)
     const [temp, setTemp] = useState(null)
@@ -24,18 +25,23 @@ const Climate = (props) => {
         }).catch(error => console.log(error))
     }
 
-    function getDataClimate() {
-        getClimate(lat, lng).then(response => {
-            if (response.data.cod == 200) {
-                setTemp(`${response.data.main.temp.toFixed(0)}°`);
-                setCodImage(response.data.weather[0].icon);
-                if (response.data.sys.country == 'BR') getDataLocal(lat, lng);
-                else setRegion(`${response.data.name} - ${response.data.sys.country}`);
-            }
-        }).catch(error => console.log(error))
-    };
-
     useEffect(() => {
+
+        function getDataClimate() {
+            if (!lat && !lng) {
+                lat = coordDefault.lat;
+                lng = coordDefault.lng
+            }
+            getClimate(lat, lng).then(response => {
+                if (response.data.cod === 200) {
+                    setTemp(`${response.data.main.temp.toFixed(0)}°`);
+                    setCodImage(response.data.weather[0].icon);
+                    if (response.data.sys.country === 'BR') getDataLocal(lat, lng);
+                    else setRegion(`${response.data.name} - ${response.data.sys.country}`);
+                }
+            }).catch(error => console.log(error))
+        };
+
         getDataClimate();
     }, [lat, lng]);
 
