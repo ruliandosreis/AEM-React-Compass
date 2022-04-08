@@ -48,8 +48,12 @@ body {
   background-position: left -20px bottom -15px;
 }
 
-.background__gradient_home_page {
+.background__color_header_main_homepage {
   background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+}
+
+.background__color_footer_homepage {
+  background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 }
 
 @font-face {
