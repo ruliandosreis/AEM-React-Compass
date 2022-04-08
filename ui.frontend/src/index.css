@@ -41,6 +41,17 @@ body {
   background-position:center;
 }
 
+.background__ball-logo {
+  background: url('./assets/images/ball-compass-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left -20px bottom -15px;
+}
+
+.background__gradient_home_page {
+  background: linear-gradient(105.96deg, #FFFFFF 0%, #F0F0F0 97.86%);
+}
+
 @font-face {
   font-family: 'Mark Pro';
   src: url('./assets/Fonts/MarkPro.ttf');
