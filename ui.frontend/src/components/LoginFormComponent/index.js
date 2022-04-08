@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   LoginFormContainer,
   LoginForm,
@@ -22,11 +22,16 @@ const LoginFormComponent = ({teste}) => {
 
   const submitForm = (data) =>{data ? console.log('enviou') : console.log('não enviou')}
 
+  const [userName, setUserName] = useState();
+  const store = (key, value) => userName !== undefined && userName !== " " && localStorage.setItem(key, value);
+
+  const userLocalData = localStorage.getItem('username');
+
   return (
     <LoginFormContainer>
       <LoginForm onSubmit={handleSubmit(submitForm)} id='login-form'>
         <InputLabel>
-          <LoginUserInput type='text' name='userInput' placeholder='Usuário' {...register('user')}/>
+          <LoginUserInput type='text' name='userInput' placeholder='Usuário' {...register('user')} onChange={e => setUserName(e.target.value)} onBlurCapture={()=>store('username', userName)} defaultValue={userLocalData}/>
         </InputLabel>
         <InputLabel>
           <LoginPasswordInput type='password' name='passwordInput' placeholder='Senha' {...register('password')}/>
