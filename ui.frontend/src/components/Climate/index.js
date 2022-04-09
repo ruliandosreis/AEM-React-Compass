@@ -25,32 +25,31 @@ const Climate = (props) => {
         }).catch(error => console.log(error))
     }
 
-    useEffect(() => {
-
-        function getDataClimate() {
-            if (!lat && !lng) {
-                lat = coordDefault.lat;
-                lng = coordDefault.lng
+    function getDataClimate() {
+        if (!lat && !lng) {
+            lat = coordDefault.lat;
+            lng = coordDefault.lng
+        }
+        getClimate(lat, lng).then(response => {
+            if (response.data.cod === 200) {
+                setTemp(`${response.data.main.temp.toFixed(0)}°`);
+                setCodImage(response.data.weather[0].icon);
+                if (response.data.sys.country === 'BR') getDataLocal(lat, lng);
+                else setRegion(`${response.data.name} - ${response.data.sys.country}`);
             }
-            getClimate(lat, lng).then(response => {
-                if (response.data.cod === 200) {
-                    setTemp(`${response.data.main.temp.toFixed(0)}°`);
-                    setCodImage(response.data.weather[0].icon);
-                    if (response.data.sys.country === 'BR') getDataLocal(lat, lng);
-                    else setRegion(`${response.data.name} - ${response.data.sys.country}`);
-                }
-            }).catch(error => console.log(error))
-        };
+        }).catch(error => console.log(error))
+    };
 
+    useEffect(() => {
         getDataClimate();
-    }, [lat, lng]);
+    }, [lat,lng]);
 
     return (
         temp && region ?
             <ClimateStyle>
                 <span>{region}</span>
                 <div>
-                    <img src={`http://openweathermap.org/img/wn/${codImage}@4x.png`} />
+                    <img alt="" src={`http://openweathermap.org/img/wn/${codImage}@4x.png`} />
                     <h1>{temp}</h1>
                 </div>
             </ClimateStyle>
