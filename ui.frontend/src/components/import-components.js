@@ -20,7 +20,7 @@ import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 
 import './LoginFormComponent'
-import './LoginSubmitButton'
+import './LoginSubmitButton'  
 
 import './WhiteLogo';
 import './BlackLogo';
@@ -61,6 +61,7 @@ import LoginSubmitButton from "./LoginSubmitButton";
 import { WhiteLogo } from "./WhiteLogo";
 import { BlackLogo } from "./BlackLogo";
 import { CustomText } from "./CustomText";
+import Clock from "./Clock";
 
 
 //lazyload / code splitting example of an internal component
@@ -113,4 +114,5 @@ MapTo('reactcompass/components/loginsubmitbutton')(LoginSubmitButton, TextEditCo
 MapTo('reactcompass/components/whitelogo')(WhiteLogo);
 MapTo('reactcompass/components/blacklogo')(BlackLogo);
 MapTo('reactcompass/components/customtext')(CustomText);
+MapTo('reactcompass/components/clock')(Clock);
 MapTo('reactcompass/components/climate')(Climate);
