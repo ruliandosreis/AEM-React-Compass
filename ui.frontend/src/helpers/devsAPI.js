@@ -11,3 +11,9 @@ export const getLocal = async (lat, lng) => {
     const response = await axios.get(`${url}`)
     return response;
 }
+
+export const getDevs = async () => {
+    const url = "https://developers-api.glitch.me/api"
+    const response = await axios.get(`${url}`);
+    return response;
+}
