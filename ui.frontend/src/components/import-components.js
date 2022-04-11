@@ -64,6 +64,7 @@ import { BlackLogo } from "./BlackLogo";
 import { CustomText } from "./CustomText";
 import { LogoutTimer } from "./LogoutTimer";
 import Clock from './Clock'
+import LogoutButton from "./LogoutButton";
 
 
 
@@ -121,3 +122,4 @@ MapTo('reactcompass/components/climate')(Climate);
 MapTo('reactcompass/components/logouttimer')(LogoutTimer);
 MapTo('reactcompass/components/clock')(Clock);
 MapTo('reactcompass/components/inputsearch')(InputSearch);
+MapTo('reactcompass/components/logouttbutton')(LogoutButton, TextEditConfig);
