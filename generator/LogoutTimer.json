@@ -1,0 +1,41 @@
+{
+    "project-settings": {
+      "code-owner": "Keepalive",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "reactcompass",
+      "model-interface-pkg": "com.reactcompass.core.models",
+      "model-impl-pkg": "com.reactcompass.core.models.impl"
+    },
+  
+    "name": "logouttimer",
+    "title": "LogoutTimer",
+    "group": "React Compass Custom Components",
+    "type": "components",
+  
+    "options": {
+      "js": false,
+      "jstxt": false,
+      "css": false,
+      "csstxt": false,
+      "html": false,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": true,
+      "model-adaptables": ["request"],
+      "generic-javadoc": false,
+  
+      "properties": [
+        {
+            "field": "seconds",
+            "label": "Seconds to Timeout",
+            "type": "numberfield",
+            "json-expose": true,
+            "json-property": "seconds"
+          }
+      ]
+    }
+  }
