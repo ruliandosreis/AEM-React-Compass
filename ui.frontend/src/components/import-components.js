@@ -54,6 +54,7 @@ import {
     ListV2,ListV2IsEmptyFn
 } from '@adobe/aem-core-components-react-base';
 import Climate from "./Climate";
+import InputSearch from "./InputSearch";
 
 import LoginFormComponent from "./LoginFormComponent";
 import LoginSubmitButton from "./LoginSubmitButton";
@@ -114,3 +115,4 @@ MapTo('reactcompass/components/whitelogo')(WhiteLogo);
 MapTo('reactcompass/components/blacklogo')(BlackLogo);
 MapTo('reactcompass/components/customtext')(CustomText);
 MapTo('reactcompass/components/climate')(Climate);
+MapTo('reactcompass/components/inputsearch')(InputSearch);
