@@ -66,6 +66,8 @@ import { LogoutTimer } from "./LogoutTimer";
 import Clock from './Clock'
 import LogoutButton from "./LogoutButton";
 import CustomMargin from "./CustomMargin";
+import QuitButton from "./QuitButton";
+import SearchButton from "./SearchButton";
 
 
 
@@ -125,3 +127,5 @@ MapTo('reactcompass/components/clock')(Clock);
 MapTo('reactcompass/components/inputsearch')(InputSearch);
 MapTo('reactcompass/components/logouttbutton')(LogoutButton, TextEditConfig);
 MapTo('reactcompass/components/custommargin')(CustomMargin);
+MapTo('reactcompass/components/quitbutton')(QuitButton, TextEditConfig);
+MapTo('reactcompass/components/searchbutton')(SearchButton, TextEditConfig);
