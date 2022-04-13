@@ -62,11 +62,27 @@ public class LogouttimerImpl
     private Long seconds;
     @SlingObject
     private Resource resource;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String text;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private Long fontSize;
 
     @Override
     @JsonProperty("seconds")
     public Long getSeconds() {
         return seconds;
+    }
+
+    @Override
+    @JsonProperty("text")
+    public String getText() {
+        return text;
+    }
+
+    @Override
+    @JsonProperty("fontSize")
+    public Long getFontSize() {
+        return fontSize;
     }
 
     @Override

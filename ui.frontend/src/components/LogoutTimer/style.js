@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const TimerContainer = styled.div`
+    display: flex;
+`
+
 export const TimerArea = styled.div`
     flex: 1;
     display: flex;
@@ -20,6 +24,7 @@ export const TimerArea = styled.div`
         flex: 1;
         text-align: center;
         margin-left: 14%;
+        
 
         p {
             font-family: 'Roboto';

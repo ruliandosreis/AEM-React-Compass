@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
-import { TimerArea } from "./style";
+import { TimerArea, TimerContainer } from "./style";
+import { ResetButtonContainer, ResetButtonText } from "../ResetTimer/style";
 
-export const LogoutTimer = ({ seconds }) => {
+export const LogoutTimer = ({ seconds, fontSize, text }) => {
     const [timer, setTimer] = useState(180);
     const id = useRef(null);
 
@@ -31,15 +32,26 @@ export const LogoutTimer = ({ seconds }) => {
         seconds && seconds >= 10 && seconds <= 999 && setTimer(seconds);
     }, [seconds]);
 
+    const resetTimer = () => setTimer(180);
+
     return (
         <>
-            <TimerArea>
-                <span>Application <br /> refresh in</span>
-                <div>
-                    <p>{timer}</p>
-                    <span>seconds</span>
-                </div>
-            </TimerArea>
+            <TimerContainer>
+                <TimerArea>
+                    <span>Application <br /> refresh in</span>
+                    <div>
+                        <p>{timer}</p>
+                        <span>seconds</span>
+                    </div>
+                </TimerArea>
+                <ResetButtonContainer onClick={resetTimer}>
+                    <ResetButtonText
+                        fontSize={`${fontSize}px`}
+                    >
+                        {text}
+                    </ResetButtonText>
+                </ResetButtonContainer>
+            </TimerContainer>
         </>
     )
 };
