@@ -1,10 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import { TimerArea, TimerContainer } from "./style";
 import { ResetButtonContainer, ResetButtonText } from "../ResetTimer/style";
+import { useHistory } from 'react-router-dom'
 
 export const LogoutTimer = ({ seconds, fontSize, text }) => {
     const [timer, setTimer] = useState(180);
     const id = useRef(null);
+
+    const loginHistory = useHistory();
 
     const clear = () => {
         window.clearInterval(id.current);
@@ -19,7 +22,7 @@ export const LogoutTimer = ({ seconds, fontSize, text }) => {
 
     useEffect(() => {
         if (timer === 0) {
-            console.log("zerou!"); // Change this line to redirect to loginPage once routes is done 
+            loginHistory.push('/content/reactcompass/us/en/screenlogin.html')
         }
 
     }, [timer]);
