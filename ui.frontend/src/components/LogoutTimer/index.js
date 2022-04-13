@@ -32,7 +32,13 @@ export const LogoutTimer = ({ seconds, fontSize, text }) => {
         seconds && seconds >= 10 && seconds <= 999 && setTimer(seconds);
     }, [seconds]);
 
-    const resetTimer = () => setTimer(180);
+    const resetTimer = () => {
+        if (seconds && seconds >= 10 && seconds <= 999 ) {
+            setTimer(seconds);
+        } else {
+            setTimer(180);
+        }
+    };
 
     return (
         <>
