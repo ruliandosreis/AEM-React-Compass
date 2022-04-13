@@ -7,5 +7,7 @@
         jcr:title="en"
         sling:resourceType="reactcompass/components/spa"
         pageTitle="AEM React Compass"/>
-    <home/>
+    <screenhome/>
+    <screenlogin/>
+    <screensearch/>
 </jcr:root>
