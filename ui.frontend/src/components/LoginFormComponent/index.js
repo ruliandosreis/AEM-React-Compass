@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { useHistory } from 'react-router-dom'
 import {
   LoginFormContainer,
   LoginForm,
@@ -20,7 +21,9 @@ const LoginFormComponent = ({teste}) => {
     resolver: yupResolver(schema)
   });
 
-  const submitForm = (data) =>{data ? console.log('enviou') : console.log('não enviou')}
+  const homeHistory = useHistory();
+
+  const submitForm = (data) =>{data ? homeHistory.push('/content/reactcompass/us/en/screenhome.html') : console.log('não enviou')}
 
   const [userName, setUserName] = useState();
   const store = (key, value) => userName !== undefined && userName !== " " && localStorage.setItem(key, value);
