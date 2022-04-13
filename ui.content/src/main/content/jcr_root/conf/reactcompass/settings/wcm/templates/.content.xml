@@ -2,6 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
+    <templatehome/>
     <spa-next-remote-page/>
     <spa-remote-page/>
     <xf-web-variation/>
@@ -9,4 +10,7 @@
     <spa-page-template/>
     <rep:policy/>
     <reactpage/>
+    <test/>
+    <templatelogin/>
+    <templatesearch/>
 </jcr:root>

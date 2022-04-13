@@ -2,13 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:template="/conf/reactcompass/settings/wcm/templates/spa-app-template"
+        cq:template="/conf/reactcompass/settings/wcm/templates/templatesearch"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="reactcompass/components/spa">
+        sling:resourceType="reactcompass/components/page">
         <root
-            jcr:lastModified="{Date}2022-04-12T02:12:51.716-03:00"
-            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
     </jcr:content>
 </jcr:root>

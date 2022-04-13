@@ -3,14 +3,15 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2017-12-07T16:50:03.215+05:30"
+        cq:lastModified="{Date}2022-04-12T02:12:51.723-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/reactcompass/settings/wcm/templates/spa-app-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="reactcompass/components/spa">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid"
+            editable="{Boolean}true"/>
         <cq:responsive jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

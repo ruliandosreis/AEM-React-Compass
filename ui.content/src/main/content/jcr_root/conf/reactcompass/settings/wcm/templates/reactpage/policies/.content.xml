@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-04T22:30:21.627-03:00"
+        cq:lastModified="{Date}2022-04-09T12:05:22.180-03:00"
         cq:lastModifiedBy="admin"
         cq:policy="reactcompass/components/page/policy_spa"
         jcr:primaryType="nt:unstructured"
@@ -17,6 +17,23 @@
                 sling:resourceType="wcm/core/components/policies/mapping"/>
             <container
                 cq:policy="reactcompass/components/container/policy_46998610263400"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <container_188000346
+                    cq:policy="reactcompass/components/container/policy_801838907622000"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container
+                    cq:policy="reactcompass/components/container/policy_801946162096400"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container_240840455
+                    cq:policy="reactcompass/components/container/policy_810906928137900"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container>
+            <container_240840455
+                cq:policy="reactcompass/components/container/policy_810466057736600"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
