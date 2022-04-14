@@ -563,7 +563,7 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
                 <policy_spa
-                    jcr:lastModified="{Date}2022-04-08T15:57:24.152-03:00"
+                    jcr:lastModified="{Date}2022-04-14T14:10:39.951-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="AEM React Compass SPA Page Policy"
@@ -580,6 +580,11 @@
                                     cq:styleClasses="sidepanel__img"
                                     cq:styleId="1649444215448"
                                     cq:styleLabel="IMAGE"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="background__gradient"
+                                    cq:styleId="1649949841626"
+                                    cq:styleLabel="Background Screen Search"
                                     jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
@@ -631,13 +636,13 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <spa-default
                         jcr:description="Includes only SPA-Enabled components."
-                        jcr:lastModified="{Date}2022-04-13T21:47:50.418-03:00"
+                        jcr:lastModified="{Date}2022-04-14T12:44:08.531-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Container - Home"
                         sling:resourceType="wcm/core/components/policy/policy"
                         columns="24"
-                        components="[/libs/wcm/foundation/components/responsivegrid]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/reactcompass/components/whitelogo,/apps/reactcompass/components/custommargin,/apps/reactcompass/components/inputsearch,/apps/reactcompass/components/quitbutton,/apps/reactcompass/components/searchbutton]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -894,6 +899,15 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1334690449979800>
+                    <policy_12653617318800
+                        jcr:lastModified="{Date}2022-04-14T12:33:54.633-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Screen Search"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/reactcompass/components/blacklogo,/apps/reactcompass/components/inputsearch,/apps/reactcompass/components/quitbutton,/apps/reactcompass/components/searchbutton]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_12653617318800>
                 </responsivegrid>
             </components>
         </foundation>

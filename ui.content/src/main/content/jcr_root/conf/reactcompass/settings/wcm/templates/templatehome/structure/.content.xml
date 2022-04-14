@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-04-14T10:50:36.122-03:00"
+        cq:lastModified="{Date}2022-04-14T16:24:04.087-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/reactcompass/settings/wcm/templates/templatehome"
         jcr:primaryType="cq:PageContent"
@@ -87,110 +87,13 @@
                 </climate>
             </responsivegrid>
             <responsivegrid_1277635361
-                cq:styleIds="[1649826175011]"
                 jcr:created="{Date}2022-04-13T01:57:46.959-03:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2022-04-13T03:00:12.385-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    cq:styleIds="[1649864025997]"
-                    jcr:created="{Date}2022-04-13T02:06:22.319-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T12:52:05.920-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="10"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="24"/>
-                    </cq:responsive>
-                </responsivegrid>
-                <responsivegrid_1398234344
-                    cq:styleIds="[1649865670866]"
-                    jcr:created="{Date}2022-04-13T02:06:45.142-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T23:37:48.944-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <customtext
-                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:38:27.720-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_1516933624
-                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:40:50.361-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_copy
-                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:41:57.235-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_151693362
-                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:42:38.241-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_copy_copy
-                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:43:00.709-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_151693362_1164461587
-                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:43:19.441-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_copy_copy_63524868
-                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:43:35.514-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <customtext_151693362_86236989
-                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T23:43:59.338-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/customtext"
-                        editable="{Boolean}true"/>
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            behavior="hide"/>
-                    </cq:responsive>
-                </responsivegrid_1398234344>
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
@@ -209,6 +112,11 @@
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="24"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
                         offset="0"
                         width="24"/>
                 </cq:responsive>
