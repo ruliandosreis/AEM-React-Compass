@@ -563,7 +563,7 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
                 <policy_spa
-                    jcr:lastModified="{Date}2022-04-14T14:10:39.951-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:10:25.831-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="AEM React Compass SPA Page Policy"
@@ -573,13 +573,13 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
                         <item0
-                            cq:styleGroupLabel="BACKGROUND"
+                            cq:styleGroupLabel="Login Background"
                             jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
-                                    cq:styleClasses="sidepanel__img"
+                                    cq:styleClasses="background__gradient"
                                     cq:styleId="1649444215448"
-                                    cq:styleLabel="IMAGE"
+                                    cq:styleLabel="Background Gradient"
                                     jcr:primaryType="nt:unstructured"/>
                                 <item1
                                     cq:styleClasses="background__gradient"
@@ -636,13 +636,13 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <spa-default
                         jcr:description="Includes only SPA-Enabled components."
-                        jcr:lastModified="{Date}2022-04-14T12:44:08.531-03:00"
+                        jcr:lastModified="{Date}2022-04-14T00:58:13.025-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Container - Home"
                         sling:resourceType="wcm/core/components/policy/policy"
                         columns="24"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/reactcompass/components/whitelogo,/apps/reactcompass/components/custommargin,/apps/reactcompass/components/inputsearch,/apps/reactcompass/components/quitbutton,/apps/reactcompass/components/searchbutton]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/reactcompass/components/whitelogo,/apps/reactcompass/components/custommargin,/apps/reactcompass/components/customtext,/apps/reactcompass/components/loginformcomponent,/apps/reactcompass/components/loginsubmitbutton]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
