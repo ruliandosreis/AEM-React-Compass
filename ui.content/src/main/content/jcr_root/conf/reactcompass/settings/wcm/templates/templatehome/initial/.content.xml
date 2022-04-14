@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-13T14:11:33.519-03:00"
+        cq:lastModified="{Date}2022-04-13T18:53:22.741-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/reactcompass/settings/wcm/templates/templatehome"
         jcr:primaryType="cq:PageContent"
@@ -23,79 +23,139 @@
                 <responsivegrid_1398234344
                     jcr:created="{Date}2022-04-13T02:06:45.142-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T12:44:30.491-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:37:48.944-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <customtext
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:55:28.839-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#C12D18"
+                        fontFamily="Mark Pro"
+                        fontSize="34"
+                        fontWeight="700"
+                        margin="0"
+                        text="Our mission is"/>
+                    <customtext_1516933624
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:55:36.182-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#222222"
+                        fontFamily="Mark Pro"
+                        fontSize="24"
+                        fontWeight="400"
+                        margin="0"
+                        text="Nossa missão é"/>
+                    <customtext_copy
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:55:43.190-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#C12D18"
+                        fontFamily="Mark Pro"
+                        fontSize="64"
+                        fontWeight="700"
+                        margin="0"
+                        text="to transform the world"/>
+                    <customtext_151693362
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:55:47.280-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#222222"
+                        fontFamily="Mark Pro"
+                        fontSize="24"
+                        fontWeight="400"
+                        margin="0"
+                        text="transformar o mundo"/>
+                    <customtext_copy_copy
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:55:51.973-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#C12D18"
+                        fontFamily="Mark Pro"
+                        fontSize="64"
+                        fontWeight="700"
+                        margin="0"
+                        text="building digital experiences"/>
+                    <customtext_151693362_1164461587
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:56:13.542-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#222222"
+                        fontFamily="Mark Pro"
+                        fontSize="24"
+                        fontWeight="400"
+                        margin="0"
+                        text="construindo experiências digitais"/>
+                    <customtext_copy_copy_63524868
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:56:18.782-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#C12D18"
+                        fontFamily="Mark Pro"
+                        fontSize="64"
+                        fontWeight="700"
+                        margin="0"
+                        text="that enable our client’s growth"/>
+                    <customtext_151693362_86236989
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:56:22.932-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#222222"
+                        fontFamily="Mark Pro"
+                        fontSize="24"
+                        fontWeight="400"
+                        margin="0"
+                        text="que permitam o crescimento dos nossos clientes"/>
+                </responsivegrid_1398234344>
             </responsivegrid_1277635361>
             <responsivegrid
                 jcr:created="{Date}2022-04-13T01:50:56.260-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-04-13T13:42:30.417-03:00"
+                jcr:lastModified="{Date}2022-04-13T23:26:53.425-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <climate
-                    jcr:created="{Date}2022-04-13T02:22:45.350-03:00"
+                    jcr:created="{Date}2022-04-13T23:27:42.661-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T13:52:00.699-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:30:34.691-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="reactcompass/components/climate"/>
-                <clock jcr:primaryType="nt:unstructured">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            behavior="none"/>
-                    </cq:responsive>
-                </clock>
             </responsivegrid>
             <responsivegrid_816006478
                 cq:styleIds="[1649827019793]"
                 jcr:created="{Date}2022-04-13T02:14:57.122-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-04-13T17:12:11.816-03:00"
+                jcr:lastModified="{Date}2022-04-14T00:24:55.031-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <customtext
-                    jcr:created="{Date}2022-04-13T17:12:30.228-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T18:26:54.758-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="reactcompass/components/customtext"
-                    color="#FFFFFF"
-                    fontFamily="Mark Pro"
-                    fontSize="12"
-                    fontWeight="400"
-                    margin="0"
-                    text="Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar."/>
-                <responsivegrid
-                    jcr:created="{Date}2022-04-13T17:16:06.636-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T17:16:06.636-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <logouttimer
-                        jcr:created="{Date}2022-04-13T17:16:19.426-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T18:27:12.889-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/logouttimer"/>
-                    <logouttbutton
-                        jcr:created="{Date}2022-04-13T17:16:25.907-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T18:27:16.791-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/logouttbutton"
-                        fontSize="12"
-                        text="Logout"/>
-                </responsivegrid>
-            </responsivegrid_816006478>
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
 </jcr:root>
