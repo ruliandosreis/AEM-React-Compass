@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-04-14T10:50:36.123-03:00"
+        cq:lastModified="{Date}2022-04-14T16:24:04.087-03:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/reactcompass/settings/wcm/template-types/spa-page"
         jcr:primaryType="cq:PageContent"

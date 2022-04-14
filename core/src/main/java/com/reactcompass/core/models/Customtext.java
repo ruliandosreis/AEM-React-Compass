@@ -67,5 +67,8 @@ public interface Customtext
 
     @JsonProperty("family")
     String getFontFamily();
+    
+    @JsonProperty("textAlign")
+    String getTextAlign();
 
 }

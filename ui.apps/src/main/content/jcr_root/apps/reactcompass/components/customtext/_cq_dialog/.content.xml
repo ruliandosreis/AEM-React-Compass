@@ -63,6 +63,11 @@
                            jcr:primaryType="nt:unstructured"
                            name="./fontFamily"
                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <textAlign cq-msm-lockable="./textAlign"
+                           fieldLabel="Text Align"
+                           jcr:primaryType="nt:unstructured"
+                           name="./textAlign"
+                           sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
             </items>
          </column>
       </items>
