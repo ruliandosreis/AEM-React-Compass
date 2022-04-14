@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const TimerContainer = styled.div`
+    position: relative;
+    flex: 1;
     display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const TimerArea = styled.div`

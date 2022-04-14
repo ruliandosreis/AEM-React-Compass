@@ -33,7 +33,7 @@ const InputSearch = () => {
     }, [])
 
     return (
-        <div style={{ heigh: '100%', paddingTop: 50, paddingBottom: 50 }}>
+        <div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <InputSearchContainer
                 type={'text'}
                 placeholder="Buscar usuários"

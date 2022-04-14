@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const ClimateStyle = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     max-width: 160px;
 
@@ -12,11 +11,18 @@ export const ClimateStyle = styled.div`
         color: #222222;
         font-weight: 400;
         font-family: 'Mark Pro';
+
+        @media (max-width: 400px) {
+            font-size: 14px;
+        }
+
+        @media (max-width: 320px) {
+            font-size: 12px;
+        }
     }
 
-    div{
+    div {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         width: 100%;
@@ -27,24 +33,32 @@ export const ClimateStyle = styled.div`
             width: 60px;
             height: 60px;
             margin-bottom: 5px;
+
+            @media (max-width: 320px) {
+                width: 50px;
+                height: 50px;
+            }
         }
 
         h1{
             font-family: 'Mark Pro';
             font-weight: bold;
             font-size: 48px;
+            line-height: 0;
             color: #222222;
             letter-spacing: normal;
         }
-    }
 
-    @media (max-width: 400px) {
-        p {
-            font-size: 12px;
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 40px;
+            }
         }
 
-        h1 {
-            font-size: 30px;
+        @media (max-width: 320px) {
+            h1 {
+                font-size: 30px;
+            }
         }
     }
 `;

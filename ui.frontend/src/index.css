@@ -16,6 +16,11 @@
 
 /* Global styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html,
 body {
   border: 0;
@@ -54,6 +59,68 @@ body {
 
 .background__color_footer_homepage {
   background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+}
+
+.screen_full {
+  position: fixed !important;
+  min-height: 100%;
+  width: 100%;
+}
+
+.display_flex {
+  flex: 1;
+  min-height: 100%;
+  width: 100%;
+}
+
+.height_15 {
+  flex: 1;
+  height: 15%;
+  width: 100%;
+}
+
+.align_vertical {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_home {
+  position: fixed;
+  height: 15%;
+  top: 0;
+}
+
+.main_home {
+  position: fixed;
+  height: 70%;
+  top: 15%;
+  display: flex !important;
+}
+
+.background_main {
+  display: flex !important;
+  height: 100%;
+  position: relative;
+  background: url('./assets/images/ball-compass-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left -20px bottom -15px;
+}
+
+.footer_home {
+  background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+  position: fixed;
+  height: 15%;
+  bottom: 0;
+  display: flex !important;
+}
+
+.max_height {
+  position: relative;
+  height: 100%;
+  display: flex !important;
+  align-items: center;
 }
 
 @font-face {
