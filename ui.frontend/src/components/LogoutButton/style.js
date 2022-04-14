@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const LogoutButtonContainer = styled.button`
-  width: 130px;
-  height: 100px;
+  max-width: 130px;
+  height: 100%;
   padding: 20px;
   cursor: pointer;
   background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
