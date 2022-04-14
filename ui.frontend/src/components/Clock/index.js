@@ -31,10 +31,10 @@ const Clock = ({teste}) => {
       });
     }, 1000) // 1 seg
     clearInterval();
-  }, dateObject);
+  },[dateObject]);
 
   return (
-    <ClockContainer>
+    <ClockContainer data-testid='clock'>
       <Hour>
         {dateObject.hour}:{dateObject.minute}
       </Hour>
