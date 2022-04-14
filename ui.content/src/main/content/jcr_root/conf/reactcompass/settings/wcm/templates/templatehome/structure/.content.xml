@@ -3,13 +3,13 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-04-13T18:27:16.839-03:00"
+        cq:lastModified="{Date}2022-04-14T10:50:36.122-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/reactcompass/settings/wcm/templates/templatehome"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="reactcompass/components/page">
         <root
-            cq:styleIds="[1649827630425,1649809635517]"
+            cq:styleIds="[1649809635517,1649827630425]"
             jcr:lastModified="{Date}2022-04-13T01:50:36.068-03:00"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
@@ -17,14 +17,20 @@
             <responsivegrid
                 jcr:created="{Date}2022-04-13T01:50:56.260-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2022-04-13T13:42:30.417-03:00"
+                jcr:lastModified="{Date}2022-04-13T23:26:53.425-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
                 <blacklogo
-                    jcr:created="{Date}2022-04-13T02:22:03.502-03:00"
+                    jcr:created="{Date}2022-04-13T23:27:08.712-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T02:22:03.502-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:27:08.712-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="reactcompass/components/blacklogo">
@@ -32,55 +38,53 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="1"/>
+                            width="2"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
                     </cq:responsive>
                 </blacklogo>
                 <clock
-                    jcr:created="{Date}2022-04-13T02:22:12.850-03:00"
+                    jcr:created="{Date}2022-04-13T23:27:24.361-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T02:22:12.850-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:27:24.361-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="reactcompass/components/clock">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="7"
-                            width="7"/>
+                            offset="6"
+                            width="4"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             behavior="hide"/>
                     </cq:responsive>
                 </clock>
                 <climate
-                    jcr:created="{Date}2022-04-13T02:22:45.350-03:00"
+                    jcr:created="{Date}2022-04-13T23:27:42.661-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T13:51:39.290-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:27:42.661-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="reactcompass/components/climate"
                     editable="{Boolean}true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            offset="2"
-                            width="8"/>
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="4"
+                            offset="7"
                             width="3"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
-                            offset="5"
-                            width="5"/>
+                            offset="4"
+                            width="8"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="17"
+                            width="6"/>
                     </cq:responsive>
                 </climate>
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="24"/>
-                </cq:responsive>
             </responsivegrid>
             <responsivegrid_1277635361
                 cq:styleIds="[1649826175011]"
@@ -106,23 +110,82 @@
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="12"/>
+                            width="24"/>
                     </cq:responsive>
                 </responsivegrid>
                 <responsivegrid_1398234344
                     cq:styleIds="[1649865670866]"
                     jcr:created="{Date}2022-04-13T02:06:45.142-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T02:06:45.142-03:00"
+                    jcr:lastModified="{Date}2022-04-13T23:37:48.944-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid"
-                    editable="{Boolean}true">
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <customtext
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:38:27.720-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_1516933624
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:40:50.361-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_copy
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:41:57.235-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_151693362
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:42:38.241-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_copy_copy
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:43:00.709-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_151693362_1164461587
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:43:19.441-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_copy_copy_63524868
+                        jcr:created="{Date}2022-04-13T23:38:02.649-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:43:35.514-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
+                    <customtext_151693362_86236989
+                        jcr:created="{Date}2022-04-13T23:39:41.846-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-13T23:43:59.338-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        editable="{Boolean}true"/>
                     <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="13"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             behavior="hide"/>
@@ -136,92 +199,19 @@
                 </cq:responsive>
             </responsivegrid_1277635361>
             <responsivegrid_816006478
-                cq:styleIds="[1649827019793]"
                 jcr:created="{Date}2022-04-13T02:14:57.122-03:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2022-04-13T17:12:11.816-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="0"
                         width="24"/>
                 </cq:responsive>
-                <customtext
-                    jcr:created="{Date}2022-04-13T17:12:30.228-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T17:15:43.550-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="reactcompass/components/customtext"
-                    editable="{Boolean}true">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="6"/>
-                    </cq:responsive>
-                </customtext>
-                <inputsearch
-                    jcr:created="{Date}2022-04-13T17:13:03.890-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T17:13:03.890-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="reactcompass/components/inputsearch">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="2"
-                            width="6"/>
-                    </cq:responsive>
-                </inputsearch>
-                <responsivegrid
-                    jcr:created="{Date}2022-04-13T17:16:06.636-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T17:16:06.636-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="8"/>
-                    </cq:responsive>
-                    <logouttimer
-                        jcr:created="{Date}2022-04-13T17:16:19.426-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T17:16:19.426-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/logouttimer"
-                        editable="{Boolean}true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="6"/>
-                        </cq:responsive>
-                    </logouttimer>
-                    <logouttbutton
-                        jcr:created="{Date}2022-04-13T17:16:25.907-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T17:16:36.361-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="reactcompass/components/logouttbutton"
-                        editable="{Boolean}true">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </logouttbutton>
-                </responsivegrid>
             </responsivegrid_816006478>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
