@@ -31,7 +31,18 @@ body {
 }
 
 .background__gradient {
-  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  background: url('./assets/images/login-page-rightside.png') #1C1D20;
+  background-size: 50% 100%;
+  background-position: 100% 0%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:1024px) {
+  .background__gradient {
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+    background-attachment: fixed;
+  }
 }
 
 .sidepanel__img {
