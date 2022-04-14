@@ -72,6 +72,8 @@ public class CustomtextImpl
     private Long margin;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String fontFamily;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String textAlign;
     @SlingObject
     private Resource resource;
 
@@ -109,6 +111,12 @@ public class CustomtextImpl
     @JsonProperty("family")
     public String getFontFamily() {
         return fontFamily;
+    }
+    
+    @Override
+    @JsonProperty("textAlign")
+    public String getTextAlign() {
+        return textAlign;
     }
 
     @Override

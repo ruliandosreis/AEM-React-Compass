@@ -581,6 +581,11 @@
                                     cq:styleId="1649444215448"
                                     cq:styleLabel="Background Gradient"
                                     jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="background__gradient"
+                                    cq:styleId="1649949841626"
+                                    cq:styleLabel="Background Screen Search"
+                                    jcr:primaryType="nt:unstructured"/>
                             </cq:styles>
                         </item0>
                     </cq:styleGroups>
@@ -786,7 +791,7 @@
                         </cq:styleGroups>
                     </policy_1254916370390300>
                     <policy_1649827214099
-                        jcr:lastModified="{Date}2022-04-13T02:21:36.846-03:00"
+                        jcr:lastModified="{Date}2022-04-13T21:49:27.069-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Header - Home"
@@ -807,6 +812,102 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1649827214099>
+                    <policy_1319799819191800
+                        jcr:lastModified="{Date}2022-04-13T20:42:00.887-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer - Text"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/reactcompass/components/customtext">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Max-Height"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="max_height"
+                                        cq:styleId="1649893314369"
+                                        cq:styleLabel="max_height"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1319799819191800>
+                    <policy_1319799821782100
+                        jcr:lastModified="{Date}2022-04-13T21:11:04.900-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer - Input"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/reactcompass/components/inputsearch">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Max-Height"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="max_height"
+                                        cq:styleId="1649895059563"
+                                        cq:styleLabel="max_height"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1319799821782100>
+                    <policy_1319799824839900
+                        jcr:lastModified="{Date}2022-04-13T21:11:30.991-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer - Logout Area"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/reactcompass/components/logouttbutton,/apps/reactcompass/components/logouttimer]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Max-Height"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="max_height"
+                                        cq:styleId="1649895085075"
+                                        cq:styleLabel="max_height"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1319799824839900>
+                    <policy_1334690449979800
+                        jcr:lastModified="{Date}2022-04-14T00:31:00.394-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Max-Height"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Height Full"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="max_height"
+                                        cq:styleId="1649907030772"
+                                        cq:styleLabel="max_height"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1334690449979800>
+                    <policy_12653617318800
+                        jcr:lastModified="{Date}2022-04-14T12:33:54.633-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Screen Search"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/reactcompass/components/blacklogo,/apps/reactcompass/components/inputsearch,/apps/reactcompass/components/quitbutton,/apps/reactcompass/components/searchbutton]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_12653617318800>
                 </responsivegrid>
             </components>
         </foundation>

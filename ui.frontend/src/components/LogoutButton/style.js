@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const LogoutButtonContainer = styled.button`
-  width: 130px;
-  height: 100px;
+  width: 100%;
+  max-width: 130px;
+  height: 15vh;
   padding: 20px;
   cursor: pointer;
-  background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+  background: transparent;
+  border: 0;
   text-align: center;
-  @media screen and (max-width: 1024px){
+  /* @media screen and (max-width: 1024px){
     width: 100px;
-  }
+  } */
 `
 
 export const LogoutButtonText = styled.span`

@@ -46,14 +46,14 @@ const Climate = (props) => {
 
     return (
         temp && region ?
-            <ClimateStyle>
+            <ClimateStyle data-testid='climate'>
                 <span>{region}</span>
                 <div>
                     <img alt="" src={`http://openweathermap.org/img/wn/${codImage}@4x.png`} />
                     <h1>{temp}</h1>
                 </div>
             </ClimateStyle>
-            : <span>Aguade...</span>
+            : <span>Aguarde...</span>
     );
 };
 

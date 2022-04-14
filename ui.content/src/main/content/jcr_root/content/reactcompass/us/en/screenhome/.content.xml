@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-13T17:11:35.476-03:00"
+        cq:lastModified="{Date}2022-04-14T16:37:55.090-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/reactcompass/settings/wcm/templates/templatehome"
         jcr:primaryType="cq:PageContent"
@@ -19,64 +19,112 @@
                 cq:styleIds="[1649827019793]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <customtext
-                    jcr:created="{Date}2022-04-13T14:11:50.942-03:00"
+                <responsivegrid_1618567311
+                    cq:styleIds="[1649907030772]"
+                    jcr:created="{Date}2022-04-14T00:37:33.542-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T14:12:49.527-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="reactcompass/components/customtext"
-                    color="#FFFFFF"
-                    fontFamily="Mark Pro"
-                    fontSize="14"
-                    fontWeight="400"
-                    margin="0"
-                    text="Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="5"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            behavior="hide"/>
-                    </cq:responsive>
-                </customtext>
-                <inputsearch
-                    jcr:created="{Date}2022-04-13T14:13:38.299-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T14:13:38.299-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="reactcompass/components/inputsearch">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="3"
-                            width="5"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="6"/>
-                    </cq:responsive>
-                </inputsearch>
-                <responsivegrid
-                    jcr:created="{Date}2022-04-13T16:46:52.572-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-04-13T16:46:52.572-03:00"
+                    jcr:lastModified="{Date}2022-04-14T00:37:33.542-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="2"
+                            offset="1"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"
+                            offset="0"
+                            width="1"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"/>
+                    </cq:responsive>
+                    <customtext
+                        jcr:created="{Date}2022-04-13T14:11:50.942-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T15:04:44.217-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/customtext"
+                        color="#FFFFFF"
+                        fontFamily="Mark Pro"
+                        fontSize="14"
+                        fontWeight="400"
+                        margin="0"
+                        text="Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar."
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="7"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext>
+                </responsivegrid_1618567311>
+                <responsivegrid
+                    cq:styleIds="[1649907030772]"
+                    jcr:created="{Date}2022-04-14T00:39:17.909-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-14T00:39:17.909-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
                             width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="11"/>
+                    </cq:responsive>
+                    <inputsearch
+                        jcr:created="{Date}2022-04-14T00:39:38.666-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-04-14T00:39:38.666-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="reactcompass/components/inputsearch">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="9"/>
+                        </cq:responsive>
+                    </inputsearch>
+                </responsivegrid>
+                <responsivegrid_1569992567
+                    cq:styleIds="[1649907030772]"
+                    jcr:created="{Date}2022-04-14T00:40:01.597-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-14T00:40:01.597-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="7"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="11"/>
                     </cq:responsive>
                     <logouttimer
-                        jcr:created="{Date}2022-04-13T15:53:38.562-03:00"
+                        jcr:created="{Date}2022-04-14T00:40:31.072-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T15:56:21.471-03:00"
+                        jcr:lastModified="{Date}2022-04-14T00:40:57.338-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/logouttimer"
@@ -87,13 +135,17 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="6"/>
+                                width="5"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
                         </cq:responsive>
                     </logouttimer>
                     <logouttbutton
-                        jcr:created="{Date}2022-04-13T15:54:00.173-03:00"
+                        jcr:created="{Date}2022-04-14T00:40:46.206-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T15:56:03.185-03:00"
+                        jcr:lastModified="{Date}2022-04-14T00:41:10.820-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/logouttbutton"
@@ -104,25 +156,41 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="2"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
                         </cq:responsive>
                     </logouttbutton>
-                </responsivegrid>
+                </responsivegrid_1569992567>
             </responsivegrid_816006478>
             <responsivegrid_1277635361
                 cq:styleIds="[1649826175011]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <responsivegrid
+                    cq:styleIds="[1649864025997]"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="10"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="24"/>
+                    </cq:responsive>
+                </responsivegrid>
                 <responsivegrid_1398234344
                     cq:styleIds="[1649865670866]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <customtext
-                        jcr:created="{Date}2022-04-13T13:02:57.238-03:00"
+                        jcr:created="{Date}2022-04-14T15:58:43.592-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:04:42.239-03:00"
+                        jcr:lastModified="{Date}2022-04-14T15:59:48.721-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
@@ -131,105 +199,166 @@
                         fontSize="36"
                         fontWeight="700"
                         margin="0"
-                        text="Our mission is">
+                        text="Our mission is"
+                        textAlign="right">
                         <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
+                            <phone
                                 jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="7"/>
+                                behavior="hide"/>
                         </cq:responsive>
                     </customtext>
-                    <customtext_175572510
-                        jcr:created="{Date}2022-04-13T13:06:40.954-03:00"
+                    <customtext_1060640588
+                        jcr:created="{Date}2022-04-14T15:59:56.472-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:07:46.410-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:00:34.490-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
-                        color="#222222"
+                        color="222222"
                         fontFamily="Mark Pro"
                         fontSize="24"
                         fontWeight="400"
                         margin="0"
-                        text="Nossa missão é"/>
+                        text="Nossa missão é"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_1060640588>
                     <customtext_copy
-                        jcr:created="{Date}2022-04-13T13:02:57.238-03:00"
+                        jcr:created="{Date}2022-04-14T15:58:43.592-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:28:52.084-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:06:13.050-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
                         color="#C12D18"
                         fontFamily="Mark Pro"
-                        fontSize="54"
+                        fontSize="42"
                         fontWeight="700"
                         margin="0"
-                        text="to transform the world"/>
-                    <customtext_175572510_672861215
-                        jcr:created="{Date}2022-04-13T13:06:40.954-03:00"
+                        text="to transform the world"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_copy>
+                    <customtext_106064058
+                        jcr:created="{Date}2022-04-14T15:59:56.472-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:08:13.699-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:01:29.632-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
-                        color="#222222"
+                        color="222222"
                         fontFamily="Mark Pro"
                         fontSize="24"
                         fontWeight="400"
                         margin="0"
-                        text="transformar o mundo"/>
+                        text="transformar o mundo"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_106064058>
                     <customtext_copy_copy
-                        jcr:created="{Date}2022-04-13T13:02:57.238-03:00"
+                        jcr:created="{Date}2022-04-14T15:58:43.592-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:29:00.466-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:06:19.912-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
                         color="#C12D18"
                         fontFamily="Mark Pro"
-                        fontSize="54"
+                        fontSize="42"
                         fontWeight="700"
                         margin="0"
-                        text="building digital experiences"/>
-                    <customtext_175572510_1306715833
-                        jcr:created="{Date}2022-04-13T13:06:40.954-03:00"
+                        text="building digital experiences"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_copy_copy>
+                    <customtext_106064058_1484524556
+                        jcr:created="{Date}2022-04-14T15:59:56.472-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:09:17.478-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:02:09.719-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
-                        color="#222222"
+                        color="222222"
                         fontFamily="Mark Pro"
                         fontSize="24"
                         fontWeight="400"
                         margin="0"
-                        text="construindo experiências digitais"/>
-                    <customtext_copy_copy_480372302
-                        jcr:created="{Date}2022-04-13T13:02:57.238-03:00"
+                        text="construindo experiências digitais"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_106064058_1484524556>
+                    <customtext_copy_copy_551852519
+                        jcr:created="{Date}2022-04-14T15:58:43.592-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:29:14.532-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:02:59.489-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
                         color="#C12D18"
                         fontFamily="Mark Pro"
-                        fontSize="54"
+                        fontSize="42"
                         fontWeight="700"
                         margin="0"
-                        text="that enable our client’s growth"/>
-                    <customtext_175572510_1082232457
-                        jcr:created="{Date}2022-04-13T13:06:40.954-03:00"
+                        text="that enable our client’s growth"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_copy_copy_551852519>
+                    <customtext_106064058_806755258
+                        jcr:created="{Date}2022-04-14T15:59:56.472-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-13T13:10:39.659-03:00"
+                        jcr:lastModified="{Date}2022-04-14T16:03:15.800-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="reactcompass/components/customtext"
-                        color="#222222"
+                        color="222222"
                         fontFamily="Mark Pro"
                         fontSize="24"
                         fontWeight="400"
                         margin="0"
-                        text="que permitam o crescimento dos nossos clientes"/>
+                        text="que permitam o crescimento dos nossos clientes"
+                        textAlign="right">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </customtext_106064058_806755258>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"
+                            offset="0"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
                 </responsivegrid_1398234344>
             </responsivegrid_1277635361>
         </root>

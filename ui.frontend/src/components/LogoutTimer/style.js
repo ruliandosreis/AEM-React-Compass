@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const TimerContainer = styled.div`
+    position: relative;
+    flex: 1;
     display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const TimerArea = styled.div`
@@ -25,11 +29,13 @@ export const TimerArea = styled.div`
         text-align: center;
         margin-left: 14%;
         
-
         p {
             font-family: 'Roboto';
             font-size: 48px;
             color: #FFFFFF;
+            @media (max-width: 1600px) {
+                font-size: 32px;
+            }
         }
     }
 
