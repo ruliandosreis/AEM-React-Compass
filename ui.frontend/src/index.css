@@ -43,6 +43,17 @@ body {
   background-repeat: no-repeat;
 }
 
+.background__gradient_search_page {
+  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (max-width:1024px) {
   .background__gradient {
     background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);

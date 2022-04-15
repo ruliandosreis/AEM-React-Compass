@@ -2,22 +2,210 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-13T17:24:35.046-03:00"
+        cq:lastModified="{Date}2022-04-14T21:26:26.508-03:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/reactcompass/settings/wcm/templates/spa-page-template"
+        cq:styleIds="[1649949841626]"
+        cq:template="/conf/reactcompass/settings/wcm/templates/templatesearch"
         jcr:primaryType="cq:PageContent"
         jcr:title="ScreenSearch"
         sling:resourceType="reactcompass/components/page">
         <root
+            jcr:lastModified="{Date}2022-04-14T12:35:21.508-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                jcr:created="{Date}2018-10-22T16:48:57.968+05:30"
+            <custommargin_copy_co_142213079
+                jcr:created="{Date}2022-04-14T19:49:28.443-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-10-22T16:49:29.168+05:30"
+                jcr:lastModified="{Date}2022-04-14T21:04:51.246-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="reactcompass/components/custommargin"
+                margin="40">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
+            </custommargin_copy_co_142213079>
+            <whitelogo
+                jcr:created="{Date}2022-04-14T19:49:07.771-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T19:49:07.771-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/whitelogo">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="9"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="10"/>
+                </cq:responsive>
+            </whitelogo>
+            <custommargin_copy_co_2120417120
+                jcr:created="{Date}2022-04-14T19:49:28.443-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T21:04:51.246-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/custommargin"
+                margin="40">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
+            </custommargin_copy_co_2120417120>
+            <userinfo
+                jcr:created="{Date}2022-04-14T21:02:25.930-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T21:02:25.930-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/userinfo">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="newline"
+                        offset="7"
+                        width="10"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="20"/>
+                </cq:responsive>
+            </userinfo>
+            <custommargin_copy_co
+                jcr:created="{Date}2022-04-14T19:49:28.443-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T21:04:51.246-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/custommargin"
+                margin="40">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
+            </custommargin_copy_co>
+            <inputsearch
+                jcr:created="{Date}2022-04-14T19:51:01.668-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T19:51:01.668-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/inputsearch">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="newline"
+                        offset="8"
+                        width="8"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="3"
+                        width="18"/>
+                </cq:responsive>
+            </inputsearch>
+            <custommargin_copy_co_180336275
+                jcr:created="{Date}2022-04-14T19:49:28.443-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T19:50:54.165-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/custommargin"
+                margin="50">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
+            </custommargin_copy_co_180336275>
+            <searchbutton_393485101
+                jcr:created="{Date}2022-04-14T20:56:24.300-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T21:01:54.396-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/searchbutton"
+                fontSize="36"
+                text="Buscar">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="9"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="14"/>
+                </cq:responsive>
+            </searchbutton_393485101>
+            <custommargin_copy_co_1951143635
+                jcr:created="{Date}2022-04-14T19:49:28.443-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T21:00:49.091-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/custommargin"
+                margin="25">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
+            </custommargin_copy_co_1951143635>
+            <quitbutton
+                jcr:created="{Date}2022-04-14T19:53:51.548-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T19:55:16.233-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/quitbutton"
+                fontSize="36"
+                text="Sair">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="9"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="14"/>
+                </cq:responsive>
+            </quitbutton>
+            <custommargin_copy
+                jcr:created="{Date}2022-04-14T19:49:28.443-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-14T19:50:54.165-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="reactcompass/components/custommargin"
+                margin="50">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"
+                        offset="0"
+                        width="24"/>
+                </cq:responsive>
+            </custommargin_copy>
         </root>
     </jcr:content>
 </jcr:root>

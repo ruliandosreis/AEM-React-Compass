@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SearchButtonContainer = styled.button`
-  width: 380px;
+  /* width: 380px; */
+  width: 100%;
   height: 65px;
   padding: 10px;
   background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);

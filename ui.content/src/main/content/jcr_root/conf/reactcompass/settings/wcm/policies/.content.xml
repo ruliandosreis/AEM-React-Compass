@@ -563,7 +563,7 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
                 <policy_spa
-                    jcr:lastModified="{Date}2022-04-13T23:10:25.831-03:00"
+                    jcr:lastModified="{Date}2022-04-14T19:36:22.478-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="AEM React Compass SPA Page Policy"
@@ -582,7 +582,7 @@
                                     cq:styleLabel="Background Gradient"
                                     jcr:primaryType="nt:unstructured"/>
                                 <item1
-                                    cq:styleClasses="background__gradient"
+                                    cq:styleClasses="background__gradient_search_page"
                                     cq:styleId="1649949841626"
                                     cq:styleLabel="Background Screen Search"
                                     jcr:primaryType="nt:unstructured"/>
@@ -636,13 +636,13 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <spa-default
                         jcr:description="Includes only SPA-Enabled components."
-                        jcr:lastModified="{Date}2022-04-14T00:58:13.025-03:00"
+                        jcr:lastModified="{Date}2022-04-14T20:53:17.322-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Container - Home"
                         sling:resourceType="wcm/core/components/policy/policy"
                         columns="24"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/reactcompass/components/whitelogo,/apps/reactcompass/components/custommargin,/apps/reactcompass/components/customtext,/apps/reactcompass/components/loginformcomponent,/apps/reactcompass/components/loginsubmitbutton]">
+                        components="[/apps/reactcompass/components/whitelogo,/apps/reactcompass/components/custommargin,/apps/reactcompass/components/inputsearch,/apps/reactcompass/components/quitbutton,/apps/reactcompass/components/searchbutton,/apps/reactcompass/components/userinfo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
