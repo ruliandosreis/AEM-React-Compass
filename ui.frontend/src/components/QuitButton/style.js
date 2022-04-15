@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const QuitButtonContainer = styled.button`
-  width: 380px;
+  /* width: 380px; */
+  width: 100%;
   height: 65px;
   padding: 10px;
   background: #FFFFFF;

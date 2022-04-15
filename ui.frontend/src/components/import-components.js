@@ -69,6 +69,7 @@ import CustomMargin from "./CustomMargin";
 import ResetTimer from "./ResetTimer";
 import QuitButton from "./QuitButton";
 import SearchButton from "./SearchButton";
+import UserInfo from "./UserInfo";
 
 
 
@@ -132,3 +133,4 @@ MapTo('reactcompass/components/custommargin')(CustomMargin);
 MapTo('reactcompass/components/resettimer')(ResetTimer)
 MapTo('reactcompass/components/quitbutton')(QuitButton, TextEditConfig);
 MapTo('reactcompass/components/searchbutton')(SearchButton, TextEditConfig);
+MapTo('reactcompass/components/userinfo')(UserInfo);

@@ -1,7 +1,19 @@
 import React, { useEffect, useState } from "react"
+import { useDevs } from "../../context/Devs"
 import { getDevs } from "../../helpers/devsAPI"
 import AutoComplete from "../AutoComplete"
 import { InputSearchContainer } from "./style"
+
+export const getUser = (user,usersData,changeState) => {
+    if (!user) {
+        changeState([])
+        return;
+    }
+    let users = usersData.filter(element =>
+        element.name.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, "").includes(user.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, ""))
+    );
+    changeState(users)
+}
 
 const InputSearch = () => {
 
@@ -9,15 +21,8 @@ const InputSearch = () => {
     const [usersData, setUsersData] = useState([])
     const [usersFilter, setUsersFilter] = useState([])
 
-    const getUser = (user) => {
-        if (!user) {
-            setUsersFilter([])
-            return;
-        }
-        let users = usersData.filter(element =>
-            element.name.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, "").includes(user.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, ""))
-        );
-        setUsersFilter(users)
+    const changeState = (value) => {
+        setUsersFilter(value)   
     }
 
     const saveAllUsers = () => {
@@ -39,11 +44,13 @@ const InputSearch = () => {
                 placeholder="Buscar usuários"
                 onChange={e => {
                     setUserName(e.target.value)
-                    getUser(e.target.value)
+                    getUser(userName,usersData,changeState)
                 }}
                 onKeyPress={event => {
-                    // direcionar para a tela 3 com os dados encontrados
-                    // if (event.key == 'Enter') getUser(userName)
+                    if (event.key == 'Enter') {
+                        getUser(userName,usersData,changeState)
+                        // setDevs(usersFilter.length == 0 ? null : usersFilter)
+                    }
                 }}
             />
             {usersFilter.length > 0 ?

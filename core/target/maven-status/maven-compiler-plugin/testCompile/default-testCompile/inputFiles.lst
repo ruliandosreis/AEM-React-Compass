@@ -1,6 +1,6 @@
-C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\core\src\test\java\com\reactcompass\core\listeners\SimpleResourceListenerTest.java
-C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\core\src\test\java\com\reactcompass\core\servlets\SimpleServletTest.java
-C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\core\src\test\java\com\reactcompass\core\models\HelloWorldModelTest.java
-C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\core\src\test\java\com\reactcompass\core\testcontext\AppAemContext.java
-C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\core\src\test\java\com\reactcompass\core\filters\LoggingFilterTest.java
-C:\Users\Rulian\Documents\AEM\Projetos\reactcompass\core\src\test\java\com\reactcompass\core\schedulers\SimpleScheduledTaskTest.java
+C:\Users\Diogo\Documents\ProjetoFinal\AEM-React-Compass\core\src\test\java\com\reactcompass\core\schedulers\SimpleScheduledTaskTest.java
+C:\Users\Diogo\Documents\ProjetoFinal\AEM-React-Compass\core\src\test\java\com\reactcompass\core\testcontext\AppAemContext.java
+C:\Users\Diogo\Documents\ProjetoFinal\AEM-React-Compass\core\src\test\java\com\reactcompass\core\models\HelloWorldModelTest.java
+C:\Users\Diogo\Documents\ProjetoFinal\AEM-React-Compass\core\src\test\java\com\reactcompass\core\filters\LoggingFilterTest.java
+C:\Users\Diogo\Documents\ProjetoFinal\AEM-React-Compass\core\src\test\java\com\reactcompass\core\listeners\SimpleResourceListenerTest.java
+C:\Users\Diogo\Documents\ProjetoFinal\AEM-React-Compass\core\src\test\java\com\reactcompass\core\servlets\SimpleServletTest.java
